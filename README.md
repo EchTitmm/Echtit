@@ -15,7 +15,7 @@ Echtit's independent cybersecurity community website, using the same Space Grote
 
 Reviewed on November 3, 2026:
 
-- [Echtit on GitHub](https://github.com/EchTitmm): organization identity, Myanmar location, and public contact email. Its public repository is empty, so no project capabilities or repository statistics are claimed.
+- [Echtit on GitHub](https://github.com/EchTitmm): organization identity, Myanmar location, and public contact email.
 - [Ech Tit on LinkedIn](https://www.linkedin.com/company/ech-tit/): organization description and the dated steganography session announcement. Public links use the company page rather than the admin dashboard.
 - [QuimaRAT Facebook post](https://www.facebook.com/share/p/18RiFPRKTP/).
 - [Security research ethics Facebook post](https://www.facebook.com/share/p/1DadW197BP/).
@@ -34,7 +34,7 @@ python3 -m http.server 4173 --bind 127.0.0.1
 
 Open `http://127.0.0.1:4173`. The frontend uses relative asset paths and supports a project subdirectory. Language selection works with or without browser storage. Subscription selection and billing take place on OwnMesh.
 
-The public website is [thurein2003.github.io/Echtit](https://thurein2003.github.io/Echtit/), published from the `main` branch root of [thurein2003/Echtit](https://github.com/thurein2003/Echtit). The root `.nojekyll` file serves the frontend directly, with no build step.
+The public website is [echtitmm.github.io/Echtit](https://echtitmm.github.io/Echtit/), published from the `main` branch root of [EchTitmm/Echtit](https://github.com/EchTitmm/Echtit). The root `.nojekyll` file serves the frontend directly, with no build step.
 
 Update the frontend files in this repository and push to `main` to publish a new version. GitHub Pages serves the frontend directly. Do not upload environment files or hosting credentials.
 
