@@ -8,7 +8,7 @@ Echtit's independent cybersecurity community website, using the same Space Grote
 - Community updates: three selected Facebook posts with local artwork, English/Burmese summaries, and links to the originals.
 - Learning library: Echtit Medium walkthroughs, alongside the existing notes and video links.
 - Learning announcements: the September 22, 2025 steganography session is labeled as a past announcement; the separate Steganography & CTF course remains coming soon, with no public price.
-- Services: Personal Device Hub private beta with a `3000 THB` one-time payment.
+- Services: OwnMesh Free, Plus, and Team subscriptions, with monthly prices and links to OwnMesh for yearly billing and checkout.
 - Contact: Facebook, public LinkedIn, the Echtit GitHub organization, email, and Telegram inquiries through `@zalon123`.
 
 ## Content sources
@@ -32,10 +32,20 @@ The public frontend is buildless HTML, CSS, and JavaScript:
 python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:4173`. The frontend uses relative asset paths and supports a project subdirectory. Language selection works with or without browser storage. The local static server previews the payment dialog; it does not run the payment API.
+Open `http://127.0.0.1:4173`. The frontend uses relative asset paths and supports a project subdirectory. Language selection works with or without browser storage. Subscription selection and billing take place on OwnMesh.
 
 The public website is [thurein2003.github.io/Echtit](https://thurein2003.github.io/Echtit/), published from the `main` branch root of [thurein2003/Echtit](https://github.com/thurein2003/Echtit). The root `.nojekyll` file serves the frontend directly, with no build step.
 
-The public files are `index.html`, `styles.css`, `scripts.js`, `.nojekyll`, `assets/`, `img/`, and `downloads/`. Update these files and push to `main` to publish a new version. Do not upload environment files or hosting credentials.
+Update the frontend files in this repository and push to `main` to publish a new version. GitHub Pages serves the frontend directly. Do not upload environment files or hosting credentials.
 
-GitHub Pages cannot run the payment API. On the GitHub Pages site, payment slip uploads direct customers to [echtit.vercel.app](https://echtit.vercel.app/#services). Payment processing and installation delivery are handled separately by the Vercel deployment.
+## OwnMesh subscriptions
+
+The service card links to [OwnMesh Live Screen](https://ownmesh.vercel.app/screen) and [OwnMesh subscription plans](https://ownmesh.vercel.app/subscription). It replaces the retired Personal Device Hub offer and its fixed TrueMoney/slip-upload flow.
+
+Monthly prices verified against the public OwnMesh site on November 3, 2026:
+
+- Free: $0 forever, with 2 registered devices and basic file transfer/discovery.
+- Plus: $4.99 per month, with up to 10 devices, Live Screen, remote control, and CodexRelay.
+- Team: $14.99 per month, with shared devices, team members, admin controls, and access policies.
+
+Monthly/yearly subscription copy follows the owner's product update. Annual amounts are not duplicated here; OwnMesh is the destination for current yearly pricing, billing options, and checkout. Echtit does not collect payments or payment slips.

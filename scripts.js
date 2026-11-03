@@ -15,47 +15,12 @@ const translations = {
       "The next course schedule and enrollment details have not been announced. Get in touch for updates.",
     courseButton: "Ask about the course",
     servicesEyebrow: "04 / BUILT BY ECHTIT",
-    servicesTitle: "A little more control. A private connection.",
+    servicesTitle: "Your devices. One private workspace.",
     servicesLead:
       "Tools for your own devices, alongside our learning resources.",
-    serviceStatus: "Private beta",
-    serviceTitle: "Personal Device Hub",
-    serviceText: "Private Tailscale device hub for your own computers.",
-    servicePriceLabel: "One-time payment",
-    servicePrice: "3000 THB",
-    servicePriceNote:
-      "Tailscale is required. Pay once for private beta setup access.",
-    paymentReadyButton: "Ready to pay",
-    paymentReadyNote:
-      "This guide explains the app. The self-hosted package is sent after payment approval.",
-    qrEyebrow: "Thai QR Payment",
-    qrTitle: "Scan TrueMoney for the 3000 THB payment",
-    qrText:
-      "Tap the TrueMoney link or scan this fixed-amount QR, then upload your slip here. You do not need Telegram.",
-    openTrueMoneyLink: "Open 3000 THB TrueMoney link",
-    trueMoneyHelpText:
-      "If TrueMoney does not work for you, message us on Telegram before paying.",
-    trueMoneyHelpLink: "Message @zalon123",
-    slipCheckTitle: "Slip review required",
-    slipCheckText:
-      "Access is approved only when the slip matches this TrueMoney account, exactly 3000 THB, and your name. Wrong or reused slips are denied.",
-    downloadSetupGuide: "Download setup guide",
-    buyerNameLabel: "Name",
-    buyerNamePlaceholder: "Your name",
-    buyerEmailLabel: "Gmail for delivery",
-    buyerEmailPlaceholder: "yourname@gmail.com",
-    slipImageLabel: "Payment slip picture",
-    submitSlipButton: "Submit slip",
-    submitSlipSending: "Sending slip...",
-    submitSlipSuccess:
-      "Slip sent. If approved, the install zip will arrive in your Gmail within one day.",
-    submitSlipError: "Could not send the slip. Check the image and try again.",
-    submitSlipInvalidEmail: "Enter a valid Gmail address for delivery.",
-    submitSlipNotConfigured:
-      "Slip form is not connected yet. Message @zalon123 after payment.",
-    submitSlipFileLarge: "Slip image must be 4 MB or smaller.",
-    paidDeliveryNotice:
-      "After approval, the self-hosted install zip is sent to your Gmail within one day. It creates your own Tailscale URL.",
+    serviceStatus: "Free, Plus & Team",
+    serviceText:
+      "Manage your devices, transfer files, and access Live Screen through your private Tailscale network.",
     workEyebrow: "03 / THE LEARNING LIBRARY",
     workTitle: "Notes from the hands-on side.",
     wiresharkTitle: "Finding Sensitive Data in Wireshark",
@@ -129,8 +94,20 @@ const translations = {
     emailSocial: "Email us",
     footerTagline: "Curiosity. Practice. Shared knowledge.",
     backToTop: "Back to top",
-    paymentOnMainSite: "To submit a payment slip, use our main website.",
-    paymentMainSiteLink: "Open the payment form on echtit.vercel.app",
+    serviceBilling: "Monthly & yearly subscriptions",
+    serviceBillingText: "Choose and manage your plan in OwnMesh.",
+    planForever: "forever",
+    planMonthly: "/ month",
+    planFreeText:
+      "2 registered devices, basic file transfer, and device discovery.",
+    planPlusText:
+      "Up to 10 devices, Live Screen, remote control, and CodexRelay.",
+    planTeamText:
+      "Shared devices, team members, admin controls, and access policies.",
+    servicePricingNote:
+      "Monthly prices shown in USD. Visit OwnMesh for current yearly pricing, billing options, and checkout.",
+    openOwnMesh: "Open OwnMesh",
+    viewOwnMeshPlans: "View plans & billing",
   },
   mm: {
     navServices: "Services",
@@ -146,46 +123,11 @@ const translations = {
       "နောက်သင်တန်းအချိန်ဇယားနဲ့ စာရင်းသွင်းရန် အသေးစိတ်ကို မကြေညာရသေးပါ။ သိရှိရန် ဆက်သွယ်နိုင်ပါတယ်။",
     courseButton: "သင်တန်းအကြောင်း မေးရန်",
     servicesEyebrow: "04 / ECHTIT မှ ဖန်တီးထားသည်",
-    servicesTitle: "ကိုယ်ပိုင် Device များအတွက် သီးသန့်ချိတ်ဆက်မှု။",
+    servicesTitle: "ကိုယ်ပိုင် Device များ။ သီးသန့် Workspace တစ်ခု။",
     servicesLead: "လေ့လာစရာများအပြင် ကိုယ်ပိုင် Device များအတွက် ကိရိယာများ။",
-    serviceStatus: "Private beta",
-    serviceTitle: "Personal Device Hub",
-    serviceText: "ကိုယ်ပိုင် computer များအတွက် private Tailscale device hub။",
-    servicePriceLabel: "တစ်ကြိမ် payment",
-    servicePrice: "3000 THB",
-    servicePriceNote:
-      "Tailscale လိုအပ်သည်။ Private beta setup access အတွက် တစ်ကြိမ်သာ ပေးချေရန်။",
-    paymentReadyButton: "ပေးချေရန် အသင့်ဖြစ်ပြီ",
-    paymentReadyNote:
-      "ဤ guide သည် app အသုံးပြုပုံကို ရှင်းပြထားသည်။ Self-hosted package ကို payment approve ပြီးမှ ပို့ပါမည်။",
-    qrEyebrow: "Thai QR Payment",
-    qrTitle: "3000 THB payment အတွက် TrueMoney ကို Scan လုပ်ပါ",
-    qrText:
-      "TrueMoney link ကို နှိပ်ပါ သို့မဟုတ် fixed amount QR ကို scan လုပ်ပါ၊ ပြီးနောက် slip ပုံကို ဒီမှာ upload လုပ်ပါ။ Telegram မလိုပါ။",
-    openTrueMoneyLink: "3000 THB TrueMoney link ဖွင့်ရန်",
-    trueMoneyHelpText:
-      "TrueMoney ဖြင့် ပေးချေမရပါက မပေးချေမီ Telegram တွင် message ပို့ပါ။",
-    trueMoneyHelpLink: "@zalon123 သို့ message ပို့ရန်",
-    slipCheckTitle: "Slip စစ်ဆေးပြီးမှ approve",
-    slipCheckText:
-      "Slip သည် ဤ TrueMoney account၊ 3000 THB အတိအကျ၊ နှင့် သင့်နာမည်တို့နှင့် ကိုက်ညီမှ access approve လုပ်ပါမည်။ မှားသော သို့မဟုတ် ပြန်သုံးထားသော slip များကို deny လုပ်ပါမည်။",
-    downloadSetupGuide: "Setup guide download လုပ်ရန်",
-    buyerNameLabel: "နာမည်",
-    buyerNamePlaceholder: "သင့်နာမည်",
-    buyerEmailLabel: "Delivery အတွက် Gmail",
-    buyerEmailPlaceholder: "yourname@gmail.com",
-    slipImageLabel: "Payment slip ပုံ",
-    submitSlipButton: "Slip ပို့ရန်",
-    submitSlipSending: "Slip ပို့နေပါသည်...",
-    submitSlipSuccess:
-      "Slip ပို့ပြီးပါပြီ။ Approve ဖြစ်ပါက install zip ကို သင့် Gmail သို့ တစ်ရက်အတွင်း ပို့ပါမည်။",
-    submitSlipError: "Slip မပို့နိုင်ပါ။ ပုံကိုစစ်ပြီး ပြန်ကြိုးစားပါ။",
-    submitSlipInvalidEmail: "Delivery အတွက် မှန်ကန်သော Gmail address ထည့်ပါ။",
-    submitSlipNotConfigured:
-      "Slip form မချိတ်ရသေးပါ။ ငွေပေးချေပြီးပါက @zalon123 သို့ message ပို့ပါ။",
-    submitSlipFileLarge: "Slip ပုံသည် 4 MB သို့မဟုတ် ထက်နည်းရပါမည်။",
-    paidDeliveryNotice:
-      "Approve ဖြစ်ပါက self-hosted install zip ကို သင့် Gmail သို့ တစ်ရက်အတွင်း ပို့ပါမည်။ ၎င်းက သင့်ကိုယ်ပိုင် Tailscale URL ကို ဖန်တီးပေးပါမည်။",
+    serviceStatus: "Free၊ Plus နှင့် Team",
+    serviceText:
+      "သင့်ကိုယ်ပိုင် Tailscale network မှတစ်ဆင့် Device များ စီမံခြင်း၊ File လွှဲပြောင်းခြင်းနဲ့ Live Screen အသုံးပြုခြင်းတို့ကို လုပ်ဆောင်နိုင်ပါတယ်။",
     workEyebrow: "03 / လေ့လာစရာများ",
     workTitle: "လက်တွေ့လေ့လာမှုမှ မှတ်စုများ။",
     wiresharkTitle: "Wireshark ထဲတွင် Sensitive Data ရှာဖွေခြင်း",
@@ -260,9 +202,21 @@ const translations = {
     emailSocial: "Email ပို့ရန်",
     footerTagline: "စူးစမ်းမယ်။ လေ့ကျင့်မယ်။ မျှဝေမယ်။",
     backToTop: "အပေါ်သို့",
-    paymentOnMainSite:
-      "Payment slip ပို့ရန် ကျွန်တော်တို့၏ အဓိက Website ကို အသုံးပြုပါ။",
-    paymentMainSiteLink: "echtit.vercel.app မှ Payment form ကို ဖွင့်ရန်",
+    serviceBilling: "လစဉ်နှင့် နှစ်စဉ် Subscription များ",
+    serviceBillingText:
+      "OwnMesh မှာ သင့် Plan ကို ရွေးချယ်ပြီး စီမံနိုင်ပါတယ်။",
+    planForever: "အမြဲအခမဲ့",
+    planMonthly: "/ လ",
+    planFreeText:
+      "Device ၂ လုံး စာရင်းသွင်းခြင်း၊ အခြေခံ File လွှဲပြောင်းခြင်းနဲ့ Device ရှာဖွေခြင်း။",
+    planPlusText:
+      "Device ၁၀ လုံးအထိ၊ Live Screen၊ Remote control နဲ့ CodexRelay။",
+    planTeamText:
+      "Device မျှဝေခြင်း၊ Team member များ၊ Admin control နဲ့ Access policy များ။",
+    servicePricingNote:
+      "ဖော်ပြထားသည်မှာ USD ဖြင့် လစဉ်ဈေးနှုန်းများဖြစ်ပါတယ်။ လက်ရှိ နှစ်စဉ်ဈေးနှုန်း၊ Billing ရွေးချယ်မှုနဲ့ ငွေပေးချေမှုတို့အတွက် OwnMesh သို့ ဝင်ကြည့်ပါ။",
+    openOwnMesh: "OwnMesh ကို ဖွင့်ရန်",
+    viewOwnMeshPlans: "Plan နှင့် Billing ကို ကြည့်ရန်",
   },
 };
 
@@ -299,10 +253,6 @@ function applyLanguage(language) {
   } catch {
     /* Language switching also works without browser storage. */
   }
-}
-
-function getActiveLanguage() {
-  return activeLanguage;
 }
 
 function initNavigation() {
@@ -361,181 +311,6 @@ function initNavigation() {
   });
 }
 
-function initPaymentFlow() {
-  const toggle = document.querySelector("[data-payment-toggle]");
-  const panel = document.querySelector("[data-payment-panel]");
-  const closeControls = document.querySelectorAll("[data-payment-close]");
-  const form = document.querySelector("[data-payment-form]");
-  const status = document.querySelector("[data-payment-status]");
-
-  if (!toggle || !panel) {
-    return;
-  }
-
-  const qrImage = panel.querySelector("[data-qr-src]");
-  const dialog = panel.querySelector(".payment-dialog");
-  const background = [
-    ...document.querySelectorAll(".skip-link, header, main > section, footer"),
-  ];
-
-  const closePanel = () => {
-    panel.hidden = true;
-    document.body.classList.remove("modal-open");
-    background.forEach((element) => {
-      element.inert = false;
-    });
-    toggle.setAttribute("aria-expanded", "false");
-    toggle.focus();
-  };
-
-  toggle.addEventListener("click", () => {
-    if (qrImage && !qrImage.getAttribute("src")) {
-      qrImage.setAttribute("src", qrImage.dataset.qrSrc);
-    }
-
-    panel.hidden = false;
-    document.body.classList.add("modal-open");
-    background.forEach((element) => {
-      element.inert = true;
-    });
-    toggle.setAttribute("aria-expanded", "true");
-    if (dialog instanceof HTMLElement) {
-      dialog.focus();
-    }
-  });
-
-  closeControls.forEach((control) => {
-    control.addEventListener("click", closePanel);
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (panel.hidden) return;
-    if (event.key === "Escape") {
-      closePanel();
-    }
-    if (event.key === "Tab" && dialog instanceof HTMLElement) {
-      const controls = [
-        ...dialog.querySelectorAll(
-          "a[href], button:not(:disabled), input:not([tabindex='-1'])",
-        ),
-      ].filter((element) => element.getClientRects().length);
-      const first = controls[0];
-      const last = controls[controls.length - 1];
-      if (
-        event.shiftKey &&
-        (document.activeElement === first || document.activeElement === dialog)
-      ) {
-        event.preventDefault();
-        last?.focus();
-      } else if (!event.shiftKey && document.activeElement === last) {
-        event.preventDefault();
-        first?.focus();
-      }
-    }
-  });
-
-  if (!(form instanceof HTMLFormElement)) {
-    return;
-  }
-
-  // GitHub Pages serves static files; payment uploads need the Vercel API.
-  if (window.location.hostname.endsWith(".github.io")) {
-    form.hidden = true;
-    const notice = document.createElement("p");
-    notice.dataset.i18n = "paymentOnMainSite";
-    const mainSite = document.createElement("a");
-    mainSite.className = "text-link";
-    mainSite.href = "https://echtit.vercel.app/#services";
-    mainSite.dataset.i18n = "paymentMainSiteLink";
-    form.after(notice, mainSite);
-    applyLanguage(getActiveLanguage());
-    return;
-  }
-
-  const submitButton = form.querySelector("button[type='submit']");
-  const submitLabel = submitButton?.querySelector("[data-i18n]");
-  const fileInput = form.querySelector("input[name='slip']");
-  const emailInput = form.querySelector("input[name='email']");
-
-  const setStatus = (key, mode = "neutral") => {
-    if (!status) {
-      return;
-    }
-
-    const language = getActiveLanguage();
-    status.textContent =
-      translations[language][key] || translations.en[key] || "";
-    status.dataset.mode = mode;
-  };
-
-  form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-
-    if (!(fileInput instanceof HTMLInputElement) || !fileInput.files?.[0]) {
-      setStatus("submitSlipError", "error");
-      return;
-    }
-
-    if (
-      !(emailInput instanceof HTMLInputElement) ||
-      !/^[^\s@]+@gmail\.com$/i.test(emailInput.value.trim())
-    ) {
-      setStatus("submitSlipInvalidEmail", "error");
-      return;
-    }
-
-    if (fileInput.files[0].size > 4 * 1024 * 1024) {
-      setStatus("submitSlipFileLarge", "error");
-      return;
-    }
-
-    const language = getActiveLanguage();
-
-    if (submitButton instanceof HTMLButtonElement) {
-      submitButton.disabled = true;
-    }
-    if (submitLabel) {
-      submitLabel.textContent =
-        translations[language].submitSlipSending ||
-        translations.en.submitSlipSending;
-    }
-    setStatus("submitSlipSending");
-
-    try {
-      const response = await fetch("/api/payment-slip", {
-        method: "POST",
-        body: new FormData(form),
-      });
-
-      if (!response.ok) {
-        const payload = await response.json().catch(() => ({}));
-        if (payload.error === "service_not_configured") {
-          setStatus("submitSlipNotConfigured", "error");
-          return;
-        }
-        if (payload.error === "invalid_email") {
-          setStatus("submitSlipInvalidEmail", "error");
-          return;
-        }
-        throw new Error("Payment slip submit failed");
-      }
-
-      form.reset();
-      setStatus("submitSlipSuccess", "success");
-    } catch {
-      setStatus("submitSlipError", "error");
-    } finally {
-      if (submitButton instanceof HTMLButtonElement) {
-        submitButton.disabled = false;
-      }
-      if (submitLabel) {
-        submitLabel.textContent =
-          translations[getActiveLanguage()].submitSlipButton;
-      }
-    }
-  });
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   applyLanguage(readSavedLanguage());
   document.querySelectorAll("[data-lang-button]").forEach((button) => {
@@ -546,5 +321,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const year = document.querySelector("[data-year]");
   if (year) year.textContent = String(new Date().getFullYear());
   initNavigation();
-  initPaymentFlow();
 });

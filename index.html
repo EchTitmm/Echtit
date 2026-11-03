@@ -34,8 +34,8 @@
       type="font/woff2"
       crossorigin
     />
-    <link rel="stylesheet" href="./styles.css?v=20261103" />
-    <script src="./scripts.js?v=20261103" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=20261103-ownmesh" />
+    <script src="./scripts.js?v=20261103-ownmesh" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
@@ -67,9 +67,6 @@
           d="M12 5c-4-3-7-3-10-2v16c4-1 6-1 10 2 4-3 6-3 10-2V3c-3-1-6-1-10 2Zm0 0v16"
         />
       </symbol>
-      <symbol id="i-download" viewBox="0 0 24 24">
-        <path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5" />
-      </symbol>
       <symbol id="i-mail" viewBox="0 0 24 24">
         <rect x="2" y="4" width="20" height="16" rx="2" />
         <path d="m2 6 10 7L22 6" />
@@ -94,14 +91,6 @@
       </symbol>
       <symbol id="i-play" viewBox="0 0 24 24">
         <path d="m8 4 12 8-12 8z" />
-      </symbol>
-      <symbol id="i-qr" viewBox="0 0 24 24">
-        <path
-          d="M3 3h6v6H3zm12 0h6v6h-6zM3 15h6v6H3zm12 0h2v2h-2zm4 0h2v6h-6v-2"
-        />
-      </symbol>
-      <symbol id="i-wallet" viewBox="0 0 24 24">
-        <path d="M20 7V4H3v16h18V7H3m18 5h-6v4h6" />
       </symbol>
     </svg>
     <header class="site-header" data-header>
@@ -736,199 +725,112 @@
                 04 / BUILT BY ECHTIT
               </p>
               <h2 data-i18n="servicesTitle">
-                A little more control. A private connection.
+                Your devices. One private workspace.
               </h2>
             </div>
             <p class="section-aside" data-i18n="servicesLead">
               Tools for your own devices, alongside our learning resources.
             </p>
           </div>
-          <article class="service-copy service-project-card reveal">
+          <article class="service-project-card ownmesh-card reveal">
             <span class="status-pill" data-i18n="serviceStatus"
-              >Private beta</span
+              >Free, Plus &amp; Team</span
             >
             <div class="project-card-head">
-              <div>
-                <h3 data-i18n="serviceTitle">Personal Device Hub</h3>
-                <p data-i18n="serviceText">
-                  Private Tailscale device hub for your own computers.
-                </p>
+              <div class="ownmesh-identity">
+                <img
+                  src="./img/ownmesh-mark.svg"
+                  width="48"
+                  height="48"
+                  alt=""
+                />
+                <div>
+                  <h3>OwnMesh</h3>
+                  <p data-i18n="serviceText">
+                    Manage your devices, transfer files, and access Live Screen
+                    through your private Tailscale network.
+                  </p>
+                </div>
               </div>
-              <strong data-i18n="servicePrice">3000 THB</strong>
+              <a
+                class="text-link ownmesh-domain"
+                href="https://ownmesh.vercel.app/screen"
+                target="_blank"
+                rel="noopener noreferrer"
+                >ownmesh.vercel.app<svg class="icon" aria-hidden="true">
+                  <use href="#i-arrow" /></svg
+              ></a>
             </div>
-
-            <div
-              class="payment-row"
-              aria-label="Personal Device Hub one-time payment price"
-            >
-              <span data-i18n="servicePriceLabel">One-time payment</span>
-              <small data-i18n="servicePriceNote"
-                >Tailscale is required. Pay once for private beta setup
-                access.</small
+            <div class="subscription-billing">
+              <span data-i18n="serviceBilling"
+                >Monthly &amp; yearly subscriptions</span
+              >
+              <span data-i18n="serviceBillingText"
+                >Choose and manage your plan in OwnMesh.</span
               >
             </div>
-
+            <div class="ownmesh-plans">
+              <article class="ownmesh-plan">
+                <h4>Free</h4>
+                <p class="plan-price">
+                  <strong>$0</strong
+                  ><span data-i18n="planForever">forever</span>
+                </p>
+                <p data-i18n="planFreeText">
+                  2 registered devices, basic file transfer, and device
+                  discovery.
+                </p>
+              </article>
+              <article class="ownmesh-plan">
+                <h4>Plus</h4>
+                <p class="plan-price">
+                  <strong>$4.99</strong
+                  ><span data-i18n="planMonthly">/ month</span>
+                </p>
+                <p data-i18n="planPlusText">
+                  Up to 10 devices, Live Screen, remote control, and CodexRelay.
+                </p>
+              </article>
+              <article class="ownmesh-plan">
+                <h4>Team</h4>
+                <p class="plan-price">
+                  <strong>$14.99</strong
+                  ><span data-i18n="planMonthly">/ month</span>
+                </p>
+                <p data-i18n="planTeamText">
+                  Shared devices, team members, admin controls, and access
+                  policies.
+                </p>
+              </article>
+            </div>
+            <p class="project-note" data-i18n="servicePricingNote">
+              Monthly prices shown in USD. Visit OwnMesh for current yearly
+              pricing, billing options, and checkout.
+            </p>
             <div class="project-actions">
-              <button
-                class="secondary-button payment-ready-button"
-                type="button"
-                data-payment-toggle
-                aria-expanded="false"
-              >
-                <svg class="icon" aria-hidden="true"><use href="#i-qr" /></svg>
-                <span data-i18n="paymentReadyButton">Ready to pay</span>
-              </button>
               <a
                 class="primary-button"
-                href="./downloads/personal-device-hub-setup-readme.md"
-                download
-              >
-                <svg class="icon" aria-hidden="true">
-                  <use href="#i-download" />
-                </svg>
-                <span data-i18n="downloadSetupGuide">Download setup guide</span>
-              </a>
+                href="https://ownmesh.vercel.app/screen"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span data-i18n="openOwnMesh">Open OwnMesh</span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#i-arrow" /></svg
+              ></a>
+              <a
+                class="secondary-button"
+                href="https://ownmesh.vercel.app/subscription"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span data-i18n="viewOwnMeshPlans"
+                  >View plans &amp; billing</span
+                ><svg class="icon" aria-hidden="true">
+                  <use href="#i-arrow" /></svg
+              ></a>
             </div>
-            <small class="project-note" data-i18n="paymentReadyNote"
-              >This guide explains the app. The self-hosted package is sent
-              after payment approval.</small
-            >
           </article>
         </div>
       </section>
-      <div class="payment-modal" data-payment-panel hidden>
-        <div class="payment-modal-backdrop" data-payment-close></div>
-        <section
-          class="payment-dialog"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="payment-dialog-title"
-          tabindex="-1"
-        >
-          <button
-            class="modal-close"
-            type="button"
-            data-payment-close
-            aria-label="Close payment popup"
-          >
-            <svg class="icon" aria-hidden="true"><use href="#i-close" /></svg>
-          </button>
-          <div class="qr-frame">
-            <img
-              data-qr-src="./img/personal-hub-thai-payment-qr.png"
-              alt="Fixed 3000 THB TrueMoney payment link QR for Personal Device Hub"
-            />
-          </div>
-          <div>
-            <span class="eyebrow" data-i18n="qrEyebrow">Thai QR Payment</span>
-            <h3 id="payment-dialog-title" data-i18n="qrTitle">
-              Scan TrueMoney for the 3000 THB payment
-            </h3>
-            <p data-i18n="qrText">
-              After payment, enter your name and upload the slip picture here.
-              You do not need Telegram.
-            </p>
-            <div class="payment-actions">
-              <a
-                class="primary-button"
-                href="https://tmn.app.link/oYZw98YDT5b"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="icon" aria-hidden="true">
-                  <use href="#i-wallet" />
-                </svg>
-                <span data-i18n="openTrueMoneyLink"
-                  >Open 3000 THB TrueMoney link</span
-                >
-              </a>
-            </div>
-            <p class="payment-help">
-              <span data-i18n="trueMoneyHelpText"
-                >If TrueMoney does not work for you, message us on Telegram
-                before paying.</span
-              >
-              <a
-                href="https://t.me/zalon123"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-i18n="trueMoneyHelpLink"
-                >Message @zalon123</a
-              >
-            </p>
-            <div class="slip-check">
-              <strong data-i18n="slipCheckTitle">Slip review required</strong>
-              <p data-i18n="slipCheckText">
-                Access is approved only when the slip matches this TrueMoney
-                account, exactly 3000 THB, and your name. Wrong or reused slips
-                are denied.
-              </p>
-            </div>
-            <form
-              class="payment-form"
-              data-payment-form
-              enctype="multipart/form-data"
-            >
-              <input
-                type="text"
-                name="website"
-                tabindex="-1"
-                autocomplete="off"
-                aria-hidden="true"
-              />
-              <label>
-                <span data-i18n="buyerNameLabel">Name</span>
-                <input
-                  type="text"
-                  name="name"
-                  maxlength="80"
-                  autocomplete="name"
-                  required
-                  data-i18n-placeholder="buyerNamePlaceholder"
-                  placeholder="Your name"
-                />
-              </label>
-              <label>
-                <span data-i18n="buyerEmailLabel">Gmail for delivery</span>
-                <input
-                  type="email"
-                  name="email"
-                  maxlength="120"
-                  autocomplete="email"
-                  required
-                  data-i18n-placeholder="buyerEmailPlaceholder"
-                  placeholder="yourname@gmail.com"
-                />
-              </label>
-              <label>
-                <span data-i18n="slipImageLabel">Payment slip picture</span>
-                <input
-                  type="file"
-                  name="slip"
-                  accept="image/jpeg,image/png,image/webp"
-                  required
-                />
-              </label>
-              <button class="primary-button compact" type="submit">
-                <svg class="icon" aria-hidden="true">
-                  <use href="#i-telegram" />
-                </svg>
-                <span data-i18n="submitSlipButton">Submit slip</span>
-              </button>
-              <p
-                class="form-status"
-                data-payment-status
-                role="status"
-                aria-live="polite"
-              ></p>
-              <small data-i18n="paidDeliveryNotice"
-                >After approval, the self-hosted install zip is sent to your
-                Gmail within one day. It creates your own Tailscale URL.</small
-              >
-            </form>
-          </div>
-        </section>
-      </div>
 
       <section class="contact-section" id="contact">
         <div class="container">

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204 204" role="img" aria-labelledby="title">
+  <title id="title">OwnMesh mark</title>
+  <rect width="204" height="204" fill="#ef271d"/>
+  <rect x="75" y="27" width="55" height="72" rx="20" fill="#ffffff"/>
+  <rect x="93" y="45" width="19" height="36" rx="7" fill="#ef271d"/>
+  <path d="M0 204 204 84c-72 70-105 112-94 120H0Z" fill="#ffffff"/>
+</svg>
